@@ -1,5 +1,7 @@
 package chapter2 
 
+import scala.language.higherKinds
+
 trait Stack {
   type Stack[A]
 
